@@ -10,7 +10,7 @@ int main(void)
 	number = 48;
 
 	do {
-		ptchar(number);
+		putchar(number);
 		number++;
 
 	} while (number <= 57);
