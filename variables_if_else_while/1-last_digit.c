@@ -6,6 +6,7 @@
  * Return Always 0
  * Using source code
  */
+
 int main(void)
 {
 	int n, last_digit;
