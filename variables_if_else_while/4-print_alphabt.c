@@ -1,4 +1,4 @@
-#include <satdio.h>
+#include <stdio.h>
 /**
  * main - putchar with condition except for an information
  * Return: Always 0 (success)
