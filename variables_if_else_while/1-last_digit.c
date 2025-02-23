@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entery point working with variblebles last digits if, else
+ * main - Entery point working with variables last digits if, else
  * Return Always 0
- * Using source code
+ * Using a source code
  */
 
 int main(void)
