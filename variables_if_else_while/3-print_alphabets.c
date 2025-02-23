@@ -12,7 +12,7 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter); /*this is going  print each letter, one by one*/
 	/* loop with ASCII value of the uppercase letters (A-Z)*/
-	for (letter = 'A'; latter <= 'Z'; letter++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 		putchar(letter);
 
 	putchar('\n'); /*this prints a new line after the alphabet code*/
