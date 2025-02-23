@@ -5,11 +5,10 @@
  */
 int main(void)
 {
-	/* variable character/letter*/
 	char letter;
 
-	/* ASCII value of the lowercase letters with loop (a-z)*/
-	for (letter = 'a'; letter != 'z'; letter++)
+	/* Loop with ASCII value of the lowercase letters (a-z)*/
+	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter); /*this prints each letter, one by one*/
 
 	putchar('\n'); /*this prints a newline after the alphaet code*/
