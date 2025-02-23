@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - Entery point working with variables last digits if, else
- * Return Always 0
+ * main - Entry point working with last digit
+ * Return: Always 0
  * Using a source code
  */
 
