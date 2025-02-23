@@ -5,6 +5,7 @@
  */
 int main(void)
 {
+	/* variable character/letter*/
 	char letter;
 
 	/* ASCII value of the lowercase letters with loop (a-z)*/
