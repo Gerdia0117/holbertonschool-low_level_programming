@@ -1,14 +1,13 @@
-#include 'main.h'
-
+#include "main.h"
 /**
- *main - Entry point
- * Return: Always 0.
+ *print_alphabet - Print the Alphabet
  */
 void print_alphabet(void)
 {
 	int abc;
 	/*this will print the full alphabet with a new line at the end*/
-	for (abc = 'a'; abd <= 'z'; abc++)
+	for (abc = 'a'; abc <= 'z'; abc++)
 		_putchar(abc);
 	_putchar('\n');
+}
 
