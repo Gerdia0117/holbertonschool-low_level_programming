@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 
 	/* this count the amount of times the alphabet is printed*/
 	cou = 0;
-	while (cou ,10)
+	while (cou < 10)
 	{
 		/* this prints the alphabet with a new line*/
 		for (abc = 'a'; abc <= 'z'; abc++)
