@@ -1,24 +1,20 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _strncpy - copy a string
- * @dest: destination of buffer
- * @src: source string
- * @n: number of characters to copy
- * Return: pointer to destination buffer
+ * _strlen - calculates the length of a string
+ * @str: pointer to the string
+ *
+ * Return: the length of the string
  */
-char *_strncpy(char *dest, char *src, int n)
+int _strlen(char *str)
 {
-	int i;
+	int length = 0;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		dest[i] = src[i];
+		length++;
+		str++;
 	}
 
-	for (; i < n; i++)
-	{
-		dest[i] = '\0';
-	}
-	return (dest);
+	return (length)
 }
