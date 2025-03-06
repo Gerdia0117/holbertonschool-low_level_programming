@@ -1,4 +1,5 @@
-#inclide "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * _strchr - locate a character in string
@@ -6,18 +7,17 @@
  * @c: is the character
  * Return: when c is found in s of NULL id not found
  */
-char *strchr(char *s, char c);
-
+char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
 	{
-		for (*s = c)
+		if (*s == c)
 		{
 			return (s);
 		}
 		s++;
 	}
-	for (c = '\0')
+	if (c == '\0')
 	{
 		return (s);
 	}
