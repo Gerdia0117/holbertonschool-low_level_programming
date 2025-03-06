@@ -6,7 +6,7 @@
  * @c: is the character
  * Return: when c is found in s of NULL id not found
  */
-char *strchr(char *s, char c)
+char *strchr(char *s, char c);
 
 {
 	while (*s != '\0')
