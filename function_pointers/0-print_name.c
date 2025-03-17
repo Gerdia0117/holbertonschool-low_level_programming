@@ -1,21 +1,21 @@
 #include <stdio.h>
-#include "function_pointer.h"
+#include "function_pointers.h"
 
 /**
- *print_name - print a name as is in the console
+ * print_name - print a name as is in the console
  *@name: name of the person
  *@f: is name
  *Return: nothing
  */
 
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
 	if (name != NULL && f != NULL)
 	{
 		f(name);
 	}
 }
-void print_to_console(char *name)
+void print_name(char *name)
 {
 	printf("Name: %s\n", name);
 }
