@@ -3,11 +3,12 @@
 #include "dog.h"
 
 /**
- * print_dog - Prints the attributes of a dog structure
- * @d: Pointer to struct dog
- * Description: Prints the dog name, age, and owner.
+ * print_dog - prints the attributes of a dog structure
+ * @d: pointer to struct dog
+ * Description: Prints the dog's name, age, and owner
  * If a field is NULL
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
