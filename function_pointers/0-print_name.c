@@ -5,7 +5,7 @@
  * print_name - print a name
  *@name: name of whats being refured
  *@f:pointer to function that is name
- *Return: NULL
+ *Return: Nothing
  */
 
 void print_name(char *name, void (*f)(char *))
