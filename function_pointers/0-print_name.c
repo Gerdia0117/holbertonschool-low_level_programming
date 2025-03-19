@@ -1,13 +1,11 @@
-#include <stdio.h>
+#include <stddef.h>
 #include "function_pointers.h"
-#include "main.c"
 
 /**
  * print_name - print a name
- * print_as_is - print the name as is
- *@name: name of the person
- *@f: is name
- *Return: nothing
+ *@name: name of whats being refured
+ *@f:pointer to function that is name
+ *Return: 0
  */
 
 void print_name(char *name, void (*f)(char *))
@@ -16,15 +14,4 @@ void print_name(char *name, void (*f)(char *))
 	{
 		f(name);
 	}
-}
-void print_as_is(char *name)
-{
-	printf("Name: %s\n", name);
-}
-
-{
-	char my_name[] = "John Doe";
-
-	print_name(my_name, print_as_is);
-	return (0);
 }

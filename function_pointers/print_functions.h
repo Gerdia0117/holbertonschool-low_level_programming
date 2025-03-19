@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-//Function prototype
+/*Function prototype8*/
 void print_as_is(char *name);
 
 #endif
