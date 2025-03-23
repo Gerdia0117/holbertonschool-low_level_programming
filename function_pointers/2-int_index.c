@@ -3,7 +3,7 @@
 
 /**
  *int_index - the index of the first element for which the cmp functions
- *@array: the array to search through 
+ *@array: the array to search through
  *@cmp: is a pointer to the function to be used to compare values
  *@size: is the amount of elements in the array
  *Return: 0 if false, return -1
